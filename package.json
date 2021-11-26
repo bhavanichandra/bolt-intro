@@ -1,0 +1,24 @@
+{
+  "name": "bolt-intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^16.11.10",
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.2"
+  },
+  "dependencies": {
+    "@slack/bolt": "^3.8.1"
+  }
+}
