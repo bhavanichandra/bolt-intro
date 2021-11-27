@@ -19,5 +19,9 @@ requirements:
 	rm -f requirements.txt
 	$(PIP) freeze > requirements.txt
 
+
+start: 
+	nodemon --exec $(PYTHON) app.py
+
 clean:
 	rm -rf $(VENV)
